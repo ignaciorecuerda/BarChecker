@@ -146,10 +146,10 @@
 		B14277041AD7E780004913E6 /* thunder.png in Resources */ = {isa = PBXBuildFile; fileRef = B14277031AD7E780004913E6 /* thunder.png */; };
 		B14277061AD7E785004913E6 /* linux.png in Resources */ = {isa = PBXBuildFile; fileRef = B14277051AD7E785004913E6 /* linux.png */; };
 		B14915A31AE118D50082D3D4 /* ic.png in Resources */ = {isa = PBXBuildFile; fileRef = B14915A21AE118D50082D3D4 /* ic.png */; };
-		B5F13C2E1B0E23300035C5E7 /* Check_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F13C2D1B0E23300035C5E7 /* Check_mark.png */; };
-		B5F13C301B0E23DA0035C5E7 /* Apple-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F13C2F1B0E23DA0035C5E7 /* Apple-icon.png */; };
-		B5F13C321B0E23E50035C5E7 /* ugr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F13C311B0E23E50035C5E7 /* ugr-logo.png */; };
 		B5F13C341B0E265B0035C5E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F13C331B0E265A0035C5E7 /* Images.xcassets */; };
+		FC0715F71B0E413C00540A4A /* Apple-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0715F61B0E413C00540A4A /* Apple-icon.png */; };
+		FC0715F91B0E415100540A4A /* Check_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0715F81B0E415100540A4A /* Check_mark.png */; };
+		FC0715FB1B0E416300540A4A /* ugr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0715FA1B0E416300540A4A /* ugr-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,11 +344,11 @@
 		B14277051AD7E785004913E6 /* linux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linux.png; sourceTree = "<group>"; };
 		B14915A21AE118D50082D3D4 /* ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic.png; sourceTree = "<group>"; };
 		B5F13C2C1B0E1E9E0035C5E7 /* ChileAppsV copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChileAppsV copy-Info.plist"; path = "/Users/Apozo/proyectoCUIA/iOSgeneric/apps/ChileAppView/ChileAppsV copy-Info.plist"; sourceTree = "<absolute>"; };
-		B5F13C2D1B0E23300035C5E7 /* Check_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Check_mark.png; path = ../../../../../../Downloads/Check_mark.png; sourceTree = "<group>"; };
-		B5F13C2F1B0E23DA0035C5E7 /* Apple-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Apple-icon.png"; path = "../../../../../../Downloads/Apple-icon.png"; sourceTree = "<group>"; };
-		B5F13C311B0E23E50035C5E7 /* ugr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ugr-logo.png"; path = "../../../../../../Downloads/ugr-logo.png"; sourceTree = "<group>"; };
 		B5F13C331B0E265A0035C5E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BarChecker/Images.xcassets; sourceTree = "<group>"; };
 		D27442981A15F17000182008 /* SampleGLResourceHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleGLResourceHandler.h; sourceTree = "<group>"; };
+		FC0715F61B0E413C00540A4A /* Apple-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple-icon.png"; sourceTree = "<group>"; };
+		FC0715F81B0E415100540A4A /* Check_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check_mark.png; sourceTree = "<group>"; };
+		FC0715FA1B0E416300540A4A /* ugr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ugr-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,9 +586,9 @@
 		1868D1F717BD6B0B00E47566 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B5F13C311B0E23E50035C5E7 /* ugr-logo.png */,
-				B5F13C2F1B0E23DA0035C5E7 /* Apple-icon.png */,
-				B5F13C2D1B0E23300035C5E7 /* Check_mark.png */,
+				FC0715FA1B0E416300540A4A /* ugr-logo.png */,
+				FC0715F81B0E415100540A4A /* Check_mark.png */,
+				FC0715F61B0E413C00540A4A /* Apple-icon.png */,
 				B14276FA1AD7DC41004913E6 /* homeBackground.png */,
 				B131F6001AEE4EF700BA8CB0 /* DataBase.sqlite */,
 				B14276FC1AD7E14E004913E6 /* greyButton.png */,
@@ -887,7 +887,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F13C301B0E23DA0035C5E7 /* Apple-icon.png in Resources */,
+				FC0715F71B0E413C00540A4A /* Apple-icon.png in Resources */,
 				B13F779E1ADBA8CA007D3A0A /* VP_about.html in Resources */,
 				1868D1BF17BD472000E47566 /* InfoPlist.strings in Resources */,
 				1868D1C717BD472000E47566 /* Default.png in Resources */,
@@ -905,7 +905,6 @@
 				18D1686D18157802004D017D /* button_cancel_pressed@2x.png in Resources */,
 				B5F13C341B0E265B0035C5E7 /* Images.xcassets in Resources */,
 				18E092D81A1AB5D4009EBD94 /* OR_about.html in Resources */,
-				B5F13C321B0E23E50035C5E7 /* ugr-logo.png in Resources */,
 				18D1686F18157802004D017D /* button_cancel@2x.png in Resources */,
 				1837321E17C55EE700756F62 /* SampleAppAboutViewController.xib in Resources */,
 				B13F779F1ADBA8CA007D3A0A /* VuforiaSizzleReel_1.m4v in Resources */,
@@ -951,6 +950,7 @@
 				18D1687218157802004D017D /* custom_toolbar_texture.png in Resources */,
 				1894FD211806F760009515BD /* MT_about.html in Resources */,
 				1863228B17EBCFA8007C8EC8 /* letter_R.png in Resources */,
+				FC0715FB1B0E416300540A4A /* ugr-logo.png in Resources */,
 				18E04A1B17ECA83F00A11459 /* app_icon_iPad.png in Resources */,
 				B13F779D1ADBA8CA007D3A0A /* StonesAndChips.xml in Resources */,
 				B13F779A1ADBA8CA007D3A0A /* start_medium.png in Resources */,
@@ -959,11 +959,11 @@
 				18D1687018157802004D017D /* button_main.png in Resources */,
 				18E04A1D17ECA83F00A11459 /* app_icon_iPhone.png in Resources */,
 				18E04A1E17ECA83F00A11459 /* app_icon_iPhone@2x.png in Resources */,
+				FC0715F91B0E415100540A4A /* Check_mark.png in Resources */,
 				18E04A2517ECA85100A11459 /* Default-Portrait@2x~ipad.png in Resources */,
 				18D1687118157802004D017D /* button_main@2x.png in Resources */,
 				18E04A2617ECA85100A11459 /* Default-Portrait~ipad.png in Resources */,
 				B13F77971ADBA8CA007D3A0A /* icon_play.png in Resources */,
-				B5F13C2E1B0E23300035C5E7 /* Check_mark.png in Resources */,
 				1860C8F117F1DDEE00078D7A /* Wood.dat in Resources */,
 				1860C8F217F1DDEE00078D7A /* Wood.xml in Resources */,
 				B13F77991ADBA8CA007D3A0A /* start_large_press.png in Resources */,

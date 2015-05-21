@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="about" destination="J7O-tj-W7j" id="mDa-gm-U0a"/>
+                <outlet property="background" destination="KSI-wz-1zM" id="Sux-WY-2Jo"/>
+                <outlet property="camera" destination="4PL-Z7-Z8r" id="wP7-Q8-hgJ"/>
+                <outlet property="titleL" destination="apu-CD-5cx" id="xPs-Gd-kzK"/>
+                <outlet property="view" destination="ciE-ip-Hpq" id="Fce-LW-NVC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="ciE-ip-Hpq">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KSI-wz-1zM" userLabel="background">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apu-CD-5cx" userLabel="title">
+                    <rect key="frame" x="11" y="52" width="300" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="BUO-hd-Jzc"/>
+                        <constraint firstAttribute="width" constant="300" id="o2k-tm-BFi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="56"/>
+                    <color key="textColor" red="0.0" green="0.25098040699958801" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PL-Z7-Z8r" userLabel="camera">
+                    <rect key="frame" x="75" y="368" width="170" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="170" id="j6H-X0-QNJ"/>
+                        <constraint firstAttribute="height" constant="50" id="k58-Nm-FqQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cameraButton:" destination="-1" eventType="touchUpInside" id="cpN-uK-nXa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7O-tj-W7j" userLabel="about">
+                    <rect key="frame" x="75" y="468" width="170" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tRn-aG-mw7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="aboutButton:" destination="-1" eventType="touchUpInside" id="Pug-xN-LC4"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Check_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="d8E-Ko-chA">
+                    <rect key="frame" x="49" y="140" width="240" height="205"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KSI-wz-1zM" firstAttribute="top" secondItem="ciE-ip-Hpq" secondAttribute="top" id="0zl-Hy-kLA"/>
+                <constraint firstItem="4PL-Z7-Z8r" firstAttribute="trailing" secondItem="J7O-tj-W7j" secondAttribute="trailing" id="22o-4E-Qwj"/>
+                <constraint firstItem="J7O-tj-W7j" firstAttribute="leading" secondItem="4PL-Z7-Z8r" secondAttribute="leading" id="23k-ss-MAn"/>
+                <constraint firstItem="J7O-tj-W7j" firstAttribute="top" secondItem="4PL-Z7-Z8r" secondAttribute="bottom" constant="50" id="Axk-ml-UMb"/>
+                <constraint firstAttribute="bottom" secondItem="J7O-tj-W7j" secondAttribute="bottom" constant="50" id="H2D-gA-b5C"/>
+                <constraint firstItem="4PL-Z7-Z8r" firstAttribute="centerX" secondItem="apu-CD-5cx" secondAttribute="centerX" id="WTC-rB-0ps"/>
+                <constraint firstItem="apu-CD-5cx" firstAttribute="centerX" secondItem="KSI-wz-1zM" secondAttribute="centerX" id="XnM-At-tn7"/>
+                <constraint firstAttribute="trailing" secondItem="KSI-wz-1zM" secondAttribute="trailing" id="bz9-dG-8x1"/>
+                <constraint firstAttribute="bottom" secondItem="KSI-wz-1zM" secondAttribute="bottom" id="mQU-er-QhE"/>
+                <constraint firstItem="KSI-wz-1zM" firstAttribute="leading" secondItem="ciE-ip-Hpq" secondAttribute="leading" id="otZ-8a-ot7"/>
+                <constraint firstItem="apu-CD-5cx" firstAttribute="top" secondItem="ciE-ip-Hpq" secondAttribute="top" constant="52" id="tbF-wb-DSY"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="767" y="417"/>
+        </view>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="thunder.png" id="pVK-Re-ReR" userLabel="logo1">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="Check_mark.png" width="250" height="250"/>
+        <image name="thunder.png" width="4067" height="4066"/>
+    </resources>
+</document>
